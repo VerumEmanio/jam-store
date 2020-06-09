@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "productName": "Blackberry Jam",
+    "image": "Photo coming soon!",
+    "price": "$12.50 per jar",
+    "description": "A deep purple, delicious blackberry jam. Perfect for pies and other treats!"
+  },
+  {
+    "id": 1,
+    "productName": "Raspberry Jam",
+    "image": "Photo coming soon!",
+    "price": "$10.00 per jar",
+    "description": "A ruby red jam that is the bees knees on toast."
+  },
+  {
+    "id": 2,
+    "productName": "Salmonberry Jam",
+    "image": "Photo coming soon!",
+    "price": "$8.25 per jar",
+    "description": "0% salmon, 100% tastiness."
+  }
+]
