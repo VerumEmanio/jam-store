@@ -9,21 +9,27 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1>Our Products</h1>
-
-      <figure class="product">
-        <a href="/home" class="back">
-          <span class="emoji-left">👈</span>Back
-        </a>
-        <div class="product__list">
-          <div class="product--#">
-            <img span="productImage" src="#" alt="{%PRODUCTNUMBER%}" />
-            <p span="productName">{%PRODUCTNAME%}</p>
-            <p span="productPrice">{%PRODUCTPRICE%}</p>
-          </div>
-        </div>
-      </figure>
+    <header id="site-masthead">
+      <img src="#" alt="Logo" />
+      <h1>Jamn Good Jelly</h1>
+      <nav id="nav-main">
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><img src="#" alt="Shopping cart" /></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="products-page">
+      <h2>Our Products</h2>
+      <ul class="products-list">
+        <li>
+          <img src="#" />
+          <p class="product-name">%PRODUCTNAME%</p>
+          <p class="product-price">%PRODUCTPRICE%</p>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
