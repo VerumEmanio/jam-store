@@ -1,1 +1,166 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;700&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.black-background {
+  background-color: #403637;
+  width: 215px;
+  height: 75px;
+  opacity: 0.8;
+  position: absolute;
+  top: 102px;
+  border-radius: 5px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  width: 960px;
+  margin: auto;
+}
+
+.company-values {
+  margin-left: 240px;
+}
+
+.company-values img {
+  border-radius: 50%;
+}
+
+.company-values li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.company-value-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.company-value-text p {
+  margin: 10px 0px 0px 0px;
+  width: 490px;
+}
+
+.featured-products {
+  display: flex;
+  justify-content: center;
+  width: 745px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.featured-products img {
+  border-radius: 5%;
+}
+
+.featured-products li {
+  position: relative;
+}
+
+.featured-products li:nth-child(2) {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 1.3125rem;
+  font-family: "Kaushan Script", cursive;
+  height: 1.625rem;
+  vertical-align: middle;
+  margin: 0px;
+  margin-right: 480px;
+  margin-bottom: 10px;
+}
+
+h1 a {
+  color: #ffffff;
+}
+
+h2.home-page-header {
+  font-size: 1.6875rem;
+  color: #5a1c6b;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+h2.home-page-header.tagline {
+  margin-top: 120px;
+  font-family: "Kaushan Script", cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #496b11;
+  margin: 0px;
+}
+
+header {
+  height: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav-logo {
+  margin-right: 10px;
+  margin-left: 10px;
+  max-height: 41px;
+}
+
+#nav-main ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav-main li {
+  margin-right: 20px;
+  width: auto; /* 60px; */
+  text-align: center;
+}
+
+#nav-main a {
+  font-size: 0.975rem;
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.product-price {
+  font-size: 1.125rem;
+  color: #cfd8dc;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.shopping-cart-logo {
+  vertical-align: middle;
+}
+
+#site-masthead {
+  background-color: #5a1c6b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
