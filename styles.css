@@ -25,6 +25,17 @@ a {
   border-radius: 50%;
 }
 
+.adj-btn {
+  font-size: 1.075rem;
+  width: 30px;
+  height: 37px;
+  background-color: #9e42b8;
+  color: #ffffff;
+  padding: 0px;
+  border-style: none;
+  margin: 10px 0px 0px 0px;
+}
+
 .black-background {
   background-color: #403637;
   width: 215px;
@@ -64,6 +75,12 @@ body {
 .company-value-text p {
   margin: 10px 0px 0px 0px;
   width: 490px;
+}
+
+.dec {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 10px;
 }
 
 .featured-product-name {
@@ -108,7 +125,7 @@ h1 {
   height: 1.625rem;
   vertical-align: middle;
   margin: 0px;
-  margin-right: 480px;
+  margin-right: 470px;
   margin-bottom: 10px;
 }
 
@@ -140,17 +157,23 @@ h3 {
 }
 
 header {
-  height: 50px;
+  height: 60px;
 }
 
 img {
   max-width: 100%;
 }
 
+.inc {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .nav-logo {
+  margin-top: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  max-height: 41px;
+  max-height: 55px;
 }
 
 #nav-main ul {
@@ -229,14 +252,14 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   background-color: #b1c0c4;
-  border-radius: 5px;
-  border-style: solid;
+  border-style: none;
   border-color: #f3f3f3;
-  margin-left: 10px;
   width: 50px;
+  height: 17px;
   padding: 10px 0px 10px 0px;
-  margin: auto auto auto 10px;
+  margin: 10px 0px 0px 0px;
   color: #40494c;
+  text-align: center;
 }
 
 #product-size-list {
@@ -270,6 +293,7 @@ p {
 
 .shopping-cart-logo {
   vertical-align: middle;
+  width: 25px;
 }
 
 #site-masthead {
