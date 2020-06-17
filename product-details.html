@@ -11,37 +11,47 @@
 
   <body>
     <header id="site-masthead">
-      <img src="https://via.placeholder.com/38x41.png" alt="Logo" />
-      <h1>Jamn Good Jelly</h1>
+      <img
+        src="https://via.placeholder.com/38x41.png"
+        alt="Logo"
+        name="logo"
+        class="nav-logo"
+      />
+      <h1><a href="index.html">Jamn Good Jelly</a></h1>
       <nav id="nav-main">
         <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="product-list.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#">Contact</a></li>
           <li>
             <img
               src="https://via.placeholder.com/38x38.png"
-              alt="Shopping cart"
+              alt="Shopping cart logo"
+              class="shopping-cart-logo"
             />
           </li>
         </ul>
       </nav>
     </header>
-    <div id="product-container">
-      <div id="product-image">
+    <div id="product-page-container">
+      <div id="product-page-image">
         <img src="https://via.placeholder.com/330x330.png" />
       </div>
-      <div id="product-description">
-        <h2 class="large-header">{%PRODUCTNAME%}</h2>
+      <div id="product-page-description">
+        <h2 class="product-page-header">{%PRODUCTNAME%}</h2>
         <p>{%PRODUCTDESCRIPTION%}</p>
-        <p>Size:</p>
-        <select name="size" id="product-size">
-          <option value="8">8 oz</option>
-          <option value="12">12 oz</option>
-        </select>
-        <p>Quantity:</p>
-        <input type="text" id="quantity" name="quantity" />
-        <button type="button">Add to cart</button>
+        <div id="product-page-size">
+          <p>Size:</p>
+          <select name="size" id="product-size-list">
+            <option value="8">8 oz ($12.00)</option>
+            <option value="12">12 oz ($14.00)</option>
+          </select>
+        </div>
+        <div id="product-page-quantity">
+          <p>Quantity:</p>
+          <input type="text" id="product-quantity-input" name="quantity" />
+        </div>
+        <button type="button" id="product-page-cart-btn">Add to cart</button>
       </div>
     </div>
   </body>

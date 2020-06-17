@@ -11,17 +11,23 @@
 
   <body>
     <header id="site-masthead">
-      <img src="https://via.placeholder.com/38x41.png" alt="Logo" />
-      <h1>Jamn Good Jelly</h1>
+      <img
+        src="https://via.placeholder.com/38x41.png"
+        alt="Logo"
+        name="logo"
+        class="nav-logo"
+      />
+      <h1><a href="index.html">Jamn Good Jelly</a></h1>
       <nav id="nav-main">
         <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="product-list.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#">Contact</a></li>
           <li>
             <img
               src="https://via.placeholder.com/38x38.png"
-              alt="Shopping cart"
+              alt="Shopping cart logo"
+              class="shopping-cart-logo"
             />
           </li>
         </ul>
@@ -31,9 +37,13 @@
       <h2>Our Products</h2>
       <ul class="products-list">
         <li>
-          <img src="https://via.placeholder.com/186x182.png" />
-          <p class="product-name">%PRODUCTNAME%</p>
-          <p class="product-price">%PRODUCTPRICE%</p>
+          <a href="product-details.html"
+            ><img src="https://via.placeholder.com/186x182.png"
+          /></a>
+          <div class="product-details-container">
+            <p class="product-name">Blackberry Jam</p>
+            <p class="product-price">20</p>
+          </div>
         </li>
       </ul>
     </div>
