@@ -36,6 +36,20 @@ a {
   margin: 10px 0px 0px 0px;
 }
 
+.badge {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  color: #403637;
+  padding: 3px 8px 3px 8px; /* Set padding to 3px once the number is >= 10 */
+  background-color: #8cb842;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  left: 15px;
+  top: 20px;
+  visibility: hidden;
+}
+
 .black-background {
   background-color: #403637;
   width: 215px;
@@ -289,6 +303,10 @@ p {
 
 #products-page h2 {
   font-size: 2.125rem;
+}
+
+.shopping-cart {
+  position: relative;
 }
 
 .shopping-cart-logo {
