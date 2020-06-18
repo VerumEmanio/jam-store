@@ -130,6 +130,17 @@ body {
   text-align: center;
 }
 
+.checkout-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15rem;
+  color: #ffffff;
+  background-color: #8cb842;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 12px 10px 12px;
+  margin-top: 10px;
+}
+
 .company-values {
   margin-left: 240px;
 }
@@ -415,7 +426,7 @@ p {
   border-color: #e5e5e8;
   border-radius: 3px;
   background-color: #fbfbff;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .shopping-cart-dropdown
