@@ -415,6 +415,7 @@ p {
   border-color: #e5e5e8;
   border-radius: 3px;
   background-color: #fbfbff;
+  visibility: hidden;
 }
 
 .shopping-cart-dropdown
@@ -422,11 +423,6 @@ p {
   color: black;
   font-size: 1.15rem;
 }
-
-/* .shopping-cart-dropdown p.cart-header {
-  color: #5a1c6b;
-  margin: auto;
-} */
 
 .shopping-cart-logo {
   vertical-align: middle;
@@ -465,6 +461,7 @@ p {
   border-right: 13px solid transparent;
   border-bottom: 9px solid #ffffff;
   z-index: 3;
+  visibility: hidden;
 }
 
 ul {
