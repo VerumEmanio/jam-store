@@ -97,6 +97,14 @@ body {
   margin-left: 10px;
 }
 
+.featured-products {
+  display: flex;
+  justify-content: center;
+  width: 745px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
 .featured-product-name {
   font-size: 1.5rem;
   color: #ffffff;
@@ -112,20 +120,13 @@ body {
   margin-left: 15px;
 }
 
-.featured-products {
-  display: flex;
-  justify-content: center;
-  width: 745px;
-  margin: auto;
-  margin-bottom: 100px;
-}
-
 .featured-products img {
   border-radius: 5%;
 }
 
 .featured-products li {
   position: relative;
+  z-index: -1;
 }
 
 .featured-products li:nth-child(2) {
@@ -139,7 +140,7 @@ h1 {
   height: 1.625rem;
   vertical-align: middle;
   margin: 0px;
-  margin-right: 470px;
+  margin-right: 490px;
   margin-bottom: 10px;
 }
 
@@ -209,6 +210,10 @@ img {
 
 p {
   font-size: 1.125rem;
+}
+
+.paypal-btn {
+  width: 155px;
 }
 
 .product-details-container {
@@ -309,6 +314,18 @@ p {
   position: relative;
 }
 
+.shopping-cart-dropdown {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  width: 210px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e5e8;
+  border-radius: 3px;
+  background-color: #fbfbff;
+}
+
 .shopping-cart-logo {
   vertical-align: middle;
   width: 25px;
@@ -319,6 +336,20 @@ p {
   color: #ffffff;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.triangle-up {
+  position: absolute;
+  top: 42px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 9px solid #ffffff;
+  z-index: 3;
 }
 
 ul {
