@@ -130,6 +130,17 @@ body {
   text-align: center;
 }
 
+.checkout-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15rem;
+  color: #ffffff;
+  background-color: #8cb842;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 12px 10px 12px;
+  margin-top: 10px;
+}
+
 .company-values {
   margin-left: 240px;
 }
@@ -491,3 +502,42 @@ ul {
   background: #555;
 }
 /* */
+
+@media (max-width: 768px) {
+  #about-container {
+    margin-left: 20px;
+  }
+  body {
+    width: 768px;
+  }
+  .company-values {
+    margin-left: 100px;
+  }
+  .featured-products li:nth-child(2) {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  h1 {
+    margin-right: 280px;
+  }
+  #products-page {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .shopping-cart-dropdown {
+    right: 30px;
+  }
+  .triangle-up {
+    right: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+
+  h1 {
+    margin-right: 20px;
+  }
+}
