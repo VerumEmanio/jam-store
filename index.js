@@ -3,15 +3,9 @@ const http = require("http");
 
 const data = fs.readFileSync("./dev-data/data.json", "utf-8");
 const dataObj = JSON.parse(data);
-const tempHome = fs.readFileSync("./templates/index.html", "utf-8");
-const tempProductList = fs.readFileSync(
-  "./templates/product-list.html",
-  "utf-8"
-);
-const tempProductDetails = fs.readFileSync(
-  "./templates/product-details.html",
-  "utf-8"
-);
+const tempHome = fs.readFileSync("./index.html", "utf-8");
+const tempProductList = fs.readFileSync("./product-list.html", "utf-8");
+const tempProductDetails = fs.readFileSync("./product-details.html", "utf-8");
 
 ////////////////
 // SERVER
