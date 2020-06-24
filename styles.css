@@ -221,6 +221,10 @@ body {
   margin-left: 50px;
 }
 
+html {
+  font-size: 100%;
+}
+
 h1 {
   font-size: 1.3125rem;
   font-family: "Kaushan Script", cursive;
@@ -293,21 +297,19 @@ img {
   max-height: 55px;
 }
 
-#nav-main ul {
+#nav-main {
   display: flex;
   margin: 0px;
   padding: 0px;
 }
 
-#nav-main li {
-  margin-right: 20px;
-  width: auto;
-  text-align: center;
-}
-
 #nav-main a {
   font-size: 0.975rem;
   color: #ffffff;
+  margin-right: 20px;
+  width: auto;
+  text-align: center;
+  padding-top: 5px;
 }
 
 p {
@@ -405,7 +407,7 @@ p {
 }
 
 #products-page {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 #products-page h2 {
@@ -519,6 +521,9 @@ ul {
   }
   h1 {
     margin-right: 280px;
+  }
+  #product-page-container {
+    margin-left: 20px;
   }
   #products-page {
     margin-top: 80px;
