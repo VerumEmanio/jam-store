@@ -20,20 +20,19 @@
       /></a>
       <h1><a href="index.html">Jamn Good Jelly</a></h1>
       <nav id="nav-main">
-        <ul>
-          <li><a href="product-list.html">Products</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li class="shopping-cart">
-            <img
-              src="./images/shopping_cart_white.png"
-              alt="Shopping cart logo"
-              class="shopping-cart-logo"
-            />
-            <span class="badge">1</span>
-          </li>
-        </ul>
+        <a href="product-list.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="#">Contact</a>
+        <div class="shopping-cart">
+          <img
+            src="./images/shopping_cart_white.png"
+            alt="Shopping cart logo"
+            class="shopping-cart-logo"
+          />
+          <span class="badge">1</span>
+        </div>
       </nav>
+      <p class="mobile-menu-btn" onclick="toggleMenu()">Menu</p>
       <div class="triangle-up"></div>
       <form class="shopping-cart-dropdown">
         <div class="cart-summary">
@@ -79,14 +78,24 @@
       </h2>
       <ul class="featured-products">
         <li>
-          <img src="https://via.placeholder.com/215x177.png" />
+          <!-- <img src="https://via.placeholder.com/215x177.png" /> -->
+          <!-- Temporarily commented out so I can work on the mobile design. -->
+          <img
+            src="https://via.placeholder.com/90x90.png"
+            class="mobile-img hidden"
+          />
           <div class="black-background">
             <p class="featured-product-name">Huckleberry Jam</p>
             <p class="featured-product-price">8 oz jar | 10</p>
           </div>
         </li>
         <li>
-          <img src="https://via.placeholder.com/215x177.png" />
+          <!-- <img src="https://via.placeholder.com/215x177.png" /> -->
+          <!-- Same as above. -->
+          <img
+            src="https://via.placeholder.com/90x90.png"
+            class="mobile-img hidden"
+          />
           <div class="black-background">
             <p class="featured-product-name">%PRODUCTNAME%</p>
             <p class="featured-product-price">%PRODUCTPRICE%</p>
@@ -127,3 +136,14 @@
     </div>
   </body>
 </html>
+
+<script>
+  function toggleMenu() {
+    var nav = document.getElementById("nav-main");
+    if (nav.style.visibility === "visible") {
+      nav.style.visibility = "hidden";
+    } else {
+      nav.style.visibility = "visible";
+    }
+  }
+</script>

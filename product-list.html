@@ -20,20 +20,56 @@
       /></a>
       <h1><a href="index.html">Jamn Good Jelly</a></h1>
       <nav id="nav-main">
-        <ul>
-          <li><a href="product-list.html">Products</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li class="shopping-cart">
-            <img
-              src="./images/shopping_cart_white.png"
-              alt="Shopping cart logo"
-              class="shopping-cart-logo"
-            />
-            <span class="badge">1</span>
-          </li>
-        </ul>
+        <a href="product-list.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="#">Contact</a>
+        <div class="shopping-cart">
+          <img
+            src="./images/shopping_cart_white.png"
+            alt="Shopping cart logo"
+            class="shopping-cart-logo"
+          />
+          <span class="badge">1</span>
+        </div>
       </nav>
+      <div class="triangle-up"></div>
+      <form class="shopping-cart-dropdown">
+        <div class="cart-summary">
+          <p class="cart-header">Cart</p>
+          <div class="total-price">
+            <p>Total:</p>
+            <p>$35.50</p>
+          </div>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+        <div class="cart-item-list">
+          <p class="cart-header">Items</p>
+          <ul>
+            <!--             <li class="cart-item__0">
+              <p class="name">Salmonberry Jam</p>
+              <p class="delete-btn">x</p>
+              <div class="item-container">
+                <img
+                  src="https://via.placeholder.com/60x60.png"
+                  class="item-image"
+                />
+                <div class="item-details">
+                  <div class="item-price-div">
+                    <p>Price:</p>
+                    <p class="price">$0.00</p>
+                  </div>
+                  <div class="item-quantity-div">
+                    <p>Qty:</p>
+                    <p class="quantity">1</p>
+                    <p class="cart-quantity-btn cart-dec-btn">-</p>
+                    <p class="cart-quantity-btn cart-inc-btn">+</p>
+                  </div>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </form>
     </header>
     <div id="products-page">
       <h2>Our Products</h2>
